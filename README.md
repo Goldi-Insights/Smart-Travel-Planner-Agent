@@ -153,3 +153,4 @@ curl -X POST http://localhost:8000/api/itinerary/generate \
 Open `frontend/index.html` with a local server (e.g. VS Code Live Server on port 5500).
 The frontend calls `http://localhost:8000` by default.
 # Smart-Travel-Planner-Agent
+# Smart-Travel-Planner-Agent
