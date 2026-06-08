@@ -10,11 +10,7 @@
 
 // ── Configuration ─────────────────────────────────────────────────────────────
 // Auto-detect API base: works whether served via Flask (same origin) or opened directly
-const API_BASE = (
-  window.location.port === "8000" || window.location.pathname !== "/"
-    ? window.location.origin + "/api"
-    : "http://localhost:8000/api"
-);
+const API_BASE = window.location.origin + "/api";
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let selectedInterests = [];
